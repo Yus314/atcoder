@@ -25,10 +25,6 @@
             #llvmPackages_latest.bintools
             rustup
           ];
-
-          shellHook = ''
-            exec zsh
-          '';
         };
       }
     );
